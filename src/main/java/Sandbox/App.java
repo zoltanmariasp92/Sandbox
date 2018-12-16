@@ -8,7 +8,12 @@ public class App {
         return "Hello world.";
     }
 
+    public String getFarewell() {
+        return "Good bye!";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new App().getFarewell());
     }
 }
