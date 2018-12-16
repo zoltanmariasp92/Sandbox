@@ -9,7 +9,7 @@ public class App {
     }
 
     public String getFarewell() {
-        return "Good bye!";
+        return "Good bye world!";
     }
 
     public static void main(String[] args) {
