@@ -13,8 +13,13 @@ public class App {
         return "Once upon a time...";
     }
 
+    public String getFarewell() {
+        return "Good bye world!";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
         System.out.println(new App().getStory());
+        System.out.println(new App().getFarewell());
     }
 }
